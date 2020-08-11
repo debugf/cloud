@@ -39,7 +39,7 @@ public class PaymentController {
         if(payment != null){
             return new CommonResult(200, "查询成功",payment);
         }else {
-            return new CommonResult(400,"没有对应的数据，ID为"+id, null);
+            return new CommonResult(400,"没有ID为"+id+"的数据", null);
         }
     }
 }
