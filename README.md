@@ -1,6 +1,6 @@
 # springcloud学习笔记
 ##### 一、创建工程步骤：
-1. New Project
+1. New Project：
    Maven>勾选Create from archetype>选择org.apche.maven.archetypes:maven-archetpye-site
 2. 聚合总父工程名字
 3. Maven版本选择 > File | Settings | Build, Execution, Deployment | Build Tools | Maven
@@ -106,4 +106,4 @@
 </project>
 ```
 
-11. 创建模块（Module）
+11.创建模块（Module）
