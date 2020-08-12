@@ -3,8 +3,9 @@ package com.debugf.springcloud.controller;
 import com.debugf.springcloud.entities.CommonResult;
 import com.debugf.springcloud.entities.Payment;
 import com.debugf.springcloud.service.PaymentService;
-import org.springframework.beans.factory.annotation.Value;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.ibatis.annotations.Param;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
